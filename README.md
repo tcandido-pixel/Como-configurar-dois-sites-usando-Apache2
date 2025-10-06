@@ -13,4 +13,12 @@ No diretório /var/www, crie as pastas dos sites:
 * ```sudo mkdir -p site1/public_html```
 
 * ```sudo mkdir -p site2/public_html```
+----
+
+Dê permissão ao seu usuário para editar os arquivos:
+
+* ```sudo chown -R $USER:$USER /var/www/site1/public_html```
+
+* ```sudo chown -R $USER:$USER /var/www/site2/public_html```
+
 
