@@ -113,9 +113,9 @@ Adicione no final:
   
 Abra o navegador e acesse:
 
-* ```http://site1.local → deve mostrar a página do Site 1```
+* ```http://site1/ → deve mostrar a página do Site 1```
 
-* ```http://site2.local → deve mostrar a página do Site 2```
+* ```http://site2/ → deve mostrar a página do Site 2```
 
 -----
 
