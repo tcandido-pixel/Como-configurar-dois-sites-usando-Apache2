@@ -97,4 +97,28 @@ DocumentRoot /var/www/site2/public_html
 
 * 📌 4. Ativar os sites no Apache
 
-* 
+Edite o arquivo para mapear os nomes para localhost:
+
+* ```sudo nano /etc/hosts```
+
+Adicione no final:
+
+* ```127.0.0.1 site1.local```
+
+* ```127.0.0.1 site2.local```
+
+-----
+
+* 📌 6. Testar no navegador
+  
+Abra o navegador e acesse:
+
+* ```http://site1.local → deve mostrar a página do Site 1```
+
+* ```http://site2.local → deve mostrar a página do Site 2```
+
+-----
+
+* 🎉 Conclusão
+
+Agora você tem dois sites diferentes rodando no mesmo servidor Apache2, cada um com seu diretório e configuração própria.
