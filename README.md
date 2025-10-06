@@ -31,8 +31,8 @@ Site1
 * ```sudo nano index.html```
 
 Exemplo de conteúdo:
-
-* <html>
+```
+<html>
 <head>
   <title>Página do Site 1</title>
 </head>
@@ -40,6 +40,6 @@ Exemplo de conteúdo:
   <h1>Site 1</h1>
 </body>
 </html>
-
+```
 
    
