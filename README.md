@@ -30,6 +30,16 @@ Site1
   
 * ```sudo nano index.html```
 
-* Exemplo de conteúdo:
+Exemplo de conteúdo:
+
+* <html>
+<head>
+  <title>Página do Site 1</title>
+</head>
+<body>
+  <h1>Site 1</h1>
+</body>
+</html>
+
 
    
