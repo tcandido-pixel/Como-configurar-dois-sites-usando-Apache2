@@ -34,12 +34,27 @@ Exemplo de conteúdo:
 ```
 <html>
 <head>
-  <title>Página do Site 1</title>
+<title>Página do Site 1</title>
 </head>
 <body>
-  <h1>Site 1</h1>
+<h1>Site 1</h1>
 </body>
 </html>
 ```
+Site2 
 
-   
+* ```cd /var/www/site2/public_html```
+  
+* ```sudo nano index.html```
+
+Exemplo de conteúdo:
+```
+<html>
+<head>
+<title>Página do Site 2</title>
+</head>
+<body>
+<h1>Site 2</h1>
+</body>
+</html>
+```
