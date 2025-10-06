@@ -7,3 +7,10 @@ Este guia mostra como configurar dois sites diferentes no mesmo servidor Apache2
 * 📌 1. Criar diretórios para os sites
 
 No diretório /var/www, crie as pastas dos sites:
+
+* ```cd /var/www```
+
+* ```sudo mkdir -p site1/public_html```
+
+* ```sudo mkdir -p site2/public_html```
+
