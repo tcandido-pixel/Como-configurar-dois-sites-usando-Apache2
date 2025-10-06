@@ -13,7 +13,6 @@ No diretório /var/www, crie as pastas dos sites:
 * ```sudo mkdir -p site1/public_html```
 
 * ```sudo mkdir -p site2/public_html```
-----
 
 Dê permissão ao seu usuário para editar os arquivos:
 
@@ -58,6 +57,8 @@ Exemplo de conteúdo:
 </body>
 </html>
 ```
+-----
+
 * 📌 3. Criar arquivos de configuração no Apache2
 
 Entre no diretório de configuração:
@@ -87,8 +88,13 @@ Agora crie o do site2:
 
 Edite para:
 ```
-ServerAdmin admin@site1
-ServerName site1
-ServerAlias www.site1
+ServerAdmin admin@site2
+ServerName site2
+ServerAlias www.site2
 DocumentRoot /var/www/site2/public_html
 ```
+-----
+
+* 📌 4. Ativar os sites no Apache
+
+* 
